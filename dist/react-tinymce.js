@@ -223,7 +223,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	// add handler propTypes
 	HANDLER_NAMES.forEach(function (name) {
-	  TinyMCE.propTypes[name] = _react2['default'].PropTypes.func;
+	  TinyMCE.propTypes[name] = _propTypes2['default'].func;
 	});
 	
 	module.exports = TinyMCE;
